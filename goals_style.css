@@ -1,0 +1,66 @@
+/* Give page background color and set text align to center */
+body {
+    background-color: #a8dba8;
+    text-align: center;
+}
+
+/* Give header its values */
+h1 {
+    color:#45a049;
+    padding: 20px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+  
+/* Gives style to text and date */
+input[type="text"], input[type="date"]{
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid rgb(15, 179, 20);
+    border-radius: 10px;
+}
+
+/* Gives style to buttons */
+input[type="button"]{
+    width: 30%;
+    background-color: #4CAF50; 
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Gives styles to dropdown menus */
+select {
+    width: 30%;
+    padding: 12px 20px;
+    border: 1px solid rgb(15, 179, 20);
+    border-radius: 10px;
+}  
+
+/* Add padding and border to the cells of the table */
+td {
+    padding: 10px;
+    border: 1px solid rgb(15, 179, 20   );
+}
+
+/* Style the table headings with color, padding and bordor */
+th {
+    background-color: rgb(15, 179, 20);
+    color: white;
+    padding: 10px;
+    border: 1px solid rgb(15, 179, 20);
+}
+  
+/* Add margin to border */
+table {
+    margin: 20px;
+    border: 1px solid rgb(15, 179, 20);
+    border-radius: 5px;
+    border-color: rgb(15, 179, 20);
+    border-collapse: collapse;
+    background-color: lightblue;
+    display: inline-block;
+}

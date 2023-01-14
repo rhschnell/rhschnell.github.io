@@ -1,0 +1,92 @@
+/* Give page background color and set text align to center */
+body {
+    background-color: #a8dba8;
+    text-align: center;
+}
+
+/* Give header its values */
+h1 {
+    color:#45a049;
+    padding: 20px;
+    text-align: center;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+/* Gives style to the input fields */
+input[type="text"], input[type="password"], input[type="email"], input[type="language"], input[type="bio"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid rgb(15, 179, 20);
+    border-radius: 10px;
+}
+
+/* Gives style to the login form */
+form {
+    width: 300px;
+    text-align: center;
+    border: 1px solid rgb(15, 179, 20);
+    background-color: lightblue;
+    display: inline-block;
+}
+
+/* Gives style to the textareas used */
+textarea{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid rgb(15, 179, 20);
+    border-radius: 10px;
+}
+
+/* Gives style to buttons */
+button {
+    width: 25%;
+    background-color: #4CAF50; 
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+/* Adds padding and margin to the form */
+form {
+    padding: 20px;
+    margin: 20px;
+}
+
+/* Adds font and font size to the form */
+form {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+}
+
+/* Add padding and border to the cells of the table */
+td {
+    padding: 10px;
+    border: 1px solid rgb(15, 179, 20   );
+}
+
+/* Style the table headings with color, padding and bordor */
+th {
+    background-color: rgb(15, 179, 20);
+    color: white;
+    padding: 10px;
+    border: 1px solid rgb(15, 179, 20);
+}
+  
+/* Add margin to border and style table */
+table {
+    margin: 20px;
+    border: 1px solid rgb(15, 179, 20);
+    border-radius: 5px;
+    border-color: rgb(15, 179, 20);
+    border-collapse: collapse;
+    background-color: lightblue;
+    display: inline-block;
+}
