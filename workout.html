@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Workout</title>
+        <link rel="stylesheet" href="css\goals_style.css">
+    </head>
+    <body>
+        <h1>Workout Goal</h1>
+        <p>Here you can set achievable targets for your workout goal!</p>
+        <h2>Create an achievable target: </h2>
+        <form action="">
+            <label for="type-select">Type:</label>
+            <select id="type-select" name="type-select">
+                <option value="numeric">Numeric</option>
+                <option value="boolean">Boolean</option>
+                <option value="text">Text</option>
+                <option value="monetary">Monetary</option>
+            </select><br><br>
+            
+            <label for="target-input">Target:</label><br>
+            <input type="text" id="target-input" name="target-input"><br>
+            <br>
+            <input type="button" value="Create target!">
+        </form> 
+        <h2>Achievable targets:</h2>
+        <table>
+            <tr>
+                <th>Target</th> 
+                <th>Type</th> 
+            </tr>
+            <tr>
+                <td>Lose 1 Kg in 3 weeks</td> 
+                <td><input type="checkbox" name="goal-completed" value="no"></td>
+            </tr>
+            <tr>
+                <td>After how many weeks should I be able to run 10km in one go</td> 
+                <td><label for="week"></label><br>
+                <input type="text" id="username" name="username"><br>
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>

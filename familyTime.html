@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Family time</title>
+        <link rel="stylesheet" href="css\goals_style.css">
+    </head>
+    <body>
+        <h1>Family time goal</h1>
+        <p>Here you can set achievable targets for your goal to spend more time with family!</p>
+
+        <h2>Create an achievable target: </h2> 
+        <form action="">
+            <label for="type-select">Type:</label>
+            <select id="type-select" name="type-select">
+                <option value="numeric">Numeric</option>
+                <option value="boolean">Boolean</option>
+                <option value="text">Text</option>
+                <option value="monetary">Monetary</option>
+            </select>
+            <br>
+            <br>
+            <label for="target-input">Target</label><br>
+            <input type="text" id="target-input" name="target-input"><br>
+            <br>
+            <input type="button" value="Create target!">
+        </form> 
+      
+        <h2>Achievable targets:</h2>
+        <table>
+            <tr>
+                <th>Target</th> 
+                <th>Type</th> 
+            </tr>
+            <tr>
+                <td>Amount of hours spend with family after 2 weeks</td> 
+                <td><label for="week"></label><br>
+                <input type="text" id="username" name="username"><br>
+                </td>
+            </tr>
+            <tr>
+                <td>Go outdoors with my family</td> 
+                <td><input type="checkbox" name="goal-completed" value="no"></td>
+            </tr>
+        </table>
+    </body>
+</html>

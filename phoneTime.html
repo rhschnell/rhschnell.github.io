@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Phone time</title>
+        <link rel="stylesheet" href="css\goals_style.css">
+    </head>
+    <body>
+        <h1>Screen time goal</h1>
+        <p>Here you can set achievable targets for your screentime goal!</p>
+
+        <h2>Create an achievable target: </h2>
+        <form action="">
+            <label for="type-select">Type:</label>
+            <select id="type-select" name="type-select">
+                <option value="numeric">Numeric</option>
+                <option value="boolean">Boolean</option>
+                <option value="text">Text</option>
+                <option value="monetary">Monetary</option>
+            </select>
+            <br>
+            <br>
+            <label for="target-input">Target</label><br>
+            <input type="text" id="target-input" name="target-input"><br>
+            <br>
+            <input type="button" value="Create target!">
+        </form> 
+
+        <h2>Achievable targets:</h2>
+        <table>
+            <tr>
+                <th>Target</th> 
+                <th>Type</th> 
+            </tr>
+            <tr>
+                <td>Delete distracting apps on my phone during the first week</td> 
+                <td><input type="checkbox" name="goal-completed" value="no"></td>
+            </tr>
+            <tr>
+                <td>Average time spend (per day) on my phone during the first week</td> 
+                <td><label for="hours"></label><br>
+                <input type="text" id="text" name="text"><br>
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>

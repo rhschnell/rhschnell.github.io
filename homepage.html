@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+          <title>Goal Tracking</title>
+          <link rel="stylesheet" href="css\signup_login_style.css">
+    </head>
+    <body>
+        <h1>Goal Tracking</h1>
+        <p>Here you can create your own SMART goals.</p>
+
+        <h2>Create a New Goal</h2>
+        <form action="">
+            <label for="goal-name">Goal name:</label><br>
+            <input type="text" id="goal-name" name="goal-name"><br>
+            <br>
+            <label for="goal-description">Goal description:</label><br>
+            <textarea id="goal-description" name="goal-description"></textarea><br>
+            <br>
+            <label for="due-date">Due date:</label><br>
+            <input type="date" id="due-date" name="due-date"><br>
+            <br>
+            <button>Create goal</button>
+        </form> 
+
+        <h2>Goals</h2>
+        <table>
+            <tr>
+                <th>Goal name</th>
+                <th>Goal Description</th> 
+                <th>Due Date</th>
+                <th>Completed</th>
+            </tr>
+            <tr>
+                <td><p><a href="workout.html">Workout</a></p></td>
+                <td>Lose 5Kg in 2 months by running every 2 days and going to the gym every week.</td> 
+                <td>09/03/2023</td>
+                <td><input type="checkbox" name="goal-completed" value="no"></td>
+            </tr>
+            <tr>
+                <td><p><a href="familyTime.html">Spend more time with family</a></p></td>
+                <td>See my family atleast twice a week for 6 months by visiting them and doing fun activities with them.</td> 
+                <td>09/07/2023</td>
+                <td><input type="checkbox" name="goal-completed" value="no"></td>
+            </tr>
+            <tr>
+                <td><p><a href="phoneTime.html">Spend less time on my phone</a></p></td>
+                <td>Screentime everyday should be under 3 hours. I will do other activities such as buskruit with friends. I will do this for the coming month.</td> 
+                <td>09/02/2023</td>
+                <td><input type="checkbox" name="goal-completed" value="no"></td>
+            </tr>
+        </table>
+    </body>
+</html>
